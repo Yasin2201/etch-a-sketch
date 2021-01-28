@@ -1,0 +1,1 @@
+Simple Project which mimics the principles of 'etch-a-sketch'
