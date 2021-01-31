@@ -66,12 +66,12 @@ function blackBtn(cols) {
 });
 }
 
-//GRAY button - incremently darken darken color until black *not working*
+//GRAY button - incremently darken darken color until black
 function darkenBtn(cols) {
     darken.addEventListener('click', () => {
         let hsl = 100
 	    cols.addEventListener("mouseover", function () {
-			if (hsl >= 0) {
+			if (hsl > 0) {
 				this.style.backgroundColor = `hsl(0,0%,${(hsl -= 10)}%)`;
 			} else if (hsl == 0) {
                 this.style.backgroundColor = 'hsl(0,0%,0%)';
