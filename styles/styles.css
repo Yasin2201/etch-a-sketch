@@ -1,0 +1,139 @@
+html {
+    height: 100%;
+    min-height: 100%;
+    background-color: #233342;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(224, 224, 224);
+}
+
+/*Container and Grid Formatting*/
+#container {
+    border: 17px solid #b35340;
+    border-radius: 5px;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.cols {
+    float: left;
+    margin: 0px;
+}
+
+/* Buttons and Formatting*/
+#options {
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.resize {background-image: linear-gradient(to right, #eea1a1 0%, #c5adad  51%, #eea1a1  100%)}
+.resize {
+
+    margin: 7px;
+    width: 100px;
+    height: 40px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(255, 255, 255);          
+    box-shadow: 0 0 5px rgb(134, 134, 134);
+    border-radius: 5px;
+    display: inline-block;
+    outline: none;
+}
+
+.resize:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    display: inline-block;
+    font-size: larger;
+  }
+
+/* .rgb {
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    margin: 7px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: black;
+} */
+
+.black {background-image: linear-gradient(to right, #000000 0%, #292929  51%, #000000  100%)}
+.black {
+
+    margin: 7px;
+    width: 100px;
+    height: 40px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(224, 224, 224);          
+    box-shadow: 0 0 5px rgb(134, 134, 134);
+    border-radius: 5px;
+    display: inline-block;
+    outline: none;
+}
+
+.black:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    display: inline-block;
+  }
+
+.darken {background-image: linear-gradient(to right, #929292 0%, #727272  51%, #222222  100%)}
+.darken {
+
+    margin: 7px;
+    width: 100px;
+    height: 40px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(224, 224, 224);          
+    box-shadow: 0 0 5px rgb(134, 134, 134);
+    border-radius: 5px;
+    display: inline-block;
+    outline: none;
+}
+
+.darken:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+ 
+  }
+
+
+.rgb {background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%)}
+.rgb {
+   margin: 7px;
+   width: 100px;
+   height: 40px;
+   font-family: 'Trebuchet MS', sans-serif;
+   font-size: 16px;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: rgb(224, 224, 224);          
+   box-shadow: 0 0 5px rgb(134, 134, 134);
+   border-radius: 5px;
+   display: inline-block;
+   outline: none;
+ }
+
+ .rgb:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+
+ }
