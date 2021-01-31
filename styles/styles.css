@@ -53,7 +53,7 @@ h1 {
 }
 
 .resize:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center;
     color: #fff;
     display: inline-block;
     font-size: larger;
@@ -87,7 +87,7 @@ h1 {
 }
 
 .black:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center;
     color: #fff;
     display: inline-block;
   }
@@ -110,7 +110,7 @@ h1 {
 }
 
 .darken:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center;
     color: #fff;
  
   }
@@ -133,7 +133,7 @@ h1 {
  }
 
  .rgb:hover {
-   background-position: right center; /* change the direction of the change here */
+   background-position: right center;
    color: #fff;
 
  }

@@ -80,13 +80,6 @@ function darkenBtn(cols) {
 	});
 }
 
-
-/*You need to get the rgb() value of the square on mouseover and 
-  THEN decrease it by 10%.  thats all going to go in the event 
-  listener.  Since you need to get the value of the squares 
-background color I added a console log to show what that would be.
-Add this and see what it logs.*/
-
 //Etch-A-Sketch Grid
 function sketch() {
     resize()
